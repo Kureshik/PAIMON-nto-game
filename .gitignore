@@ -1,0 +1,8 @@
+
+*.workspace
+*.selector
+*.wktree
+Library/
+Logs/
+Temp/
+UserSettings/
