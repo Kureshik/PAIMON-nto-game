@@ -1,8 +1,9 @@
-
 *.workspace
 *.selector
 *.wktree
+*.cache
 Library/
 Logs/
 Temp/
 UserSettings/
+.vs/
