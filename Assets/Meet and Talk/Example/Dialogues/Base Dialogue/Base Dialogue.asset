@@ -15,8 +15,6 @@ MonoBehaviour:
   NodeLinkDatas:
   - BaseNodeGuid: 9d113ae3-aa9f-4cb8-9bab-6dc4df886d32
     TargetNodeGuid: 22f599fe-bf89-4c1d-a11e-24846e378fe0
-  - BaseNodeGuid: 22f599fe-bf89-4c1d-a11e-24846e378fe0
-    TargetNodeGuid: ab381fe3-b8b3-49d4-9b85-1bc882ab3f22
   - BaseNodeGuid: ab381fe3-b8b3-49d4-9b85-1bc882ab3f22
     TargetNodeGuid: 21d5cf27-0301-4b08-9d7c-b4c510d14ee7
   - BaseNodeGuid: 21d5cf27-0301-4b08-9d7c-b4c510d14ee7
@@ -31,6 +29,8 @@ MonoBehaviour:
     TargetNodeGuid: 3dbf6b6e-6d77-462d-8c4c-8d7376ea8008
   - BaseNodeGuid: 62f85d56-c20d-444c-869b-e061135e621d
     TargetNodeGuid: 93fdbd6a-b61e-4c6f-8d18-572c005524f8
+  - BaseNodeGuid: 22f599fe-bf89-4c1d-a11e-24846e378fe0
+    TargetNodeGuid: ab381fe3-b8b3-49d4-9b85-1bc882ab3f22
   - BaseNodeGuid: 93fdbd6a-b61e-4c6f-8d18-572c005524f8
     TargetNodeGuid: f0b67569-d7ba-45fc-b51d-fa00c4710203
   - BaseNodeGuid: 93fdbd6a-b61e-4c6f-8d18-572c005524f8

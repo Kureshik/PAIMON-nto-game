@@ -1,31 +1,27 @@
+using MEET_AND_TALK;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class Test_Dialogue : MonoBehaviour
+public class Dialogue_Trigger : MonoBehaviour
 {
-    public Message[] messages;
-    public Author[] authors;
-
-    public void Start_Conversation()
+    [SerializeField] private DialogueContainerSO dialogue;
+    [SerializeField] private DialogueManager dialogueManager;
+    // Start is called before the first frame update
+    void Start()
     {
-        gameObject.SetActive(false);
-        FindObjectOfType<Dialogue_Manger>().OpenDialogue(messages, authors);
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void ButtonClick()
+    {
+        dialogueManager.SetupDialogue(dialogue);
+        dialogueManager.StartDialogue(dialogue);
     }
 }
-
-[System.Serializable]
-public class Message
-{
-    public string text;
-    public int actorID;
-}
-
-[System.Serializable]
-public class Author
-{
-    public string name;
-    public Sprite sprite;
-}
-

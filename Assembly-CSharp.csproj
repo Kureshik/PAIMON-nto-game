@@ -78,7 +78,6 @@
     <Compile Include="Assets\Meet and Talk\Script\Events\DialogueEventManager.cs" />
     <Compile Include="Assets\Meet and Talk\Demo\triggerArea.cs" />
     <Compile Include="Assets\Meet and Talk\Script\DialogueGetData.cs" />
-    <Compile Include="Assets\Scripts\Dialogs\Dialogue_Manger.cs" />
     <Compile Include="Assets\Meet and Talk\Script\MeetAndTalkSettings.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\Meet and Talk\Script\MeetAndTalkProBenefits.cs" />
